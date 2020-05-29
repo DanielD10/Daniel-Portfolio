@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <!-- Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@600&family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <!-- UIkit CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/uikit@3.3.7/dist/css/uikit.min.css"
+    />
+    <!-- My CSS file -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <!-- UIkit JS -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.3.7/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.3.7/dist/js/uikit-icons.min.js"></script>
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <!-- My JavaScript file -->
+    <script src="./assets/js/logic.js"></script>
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header uk-sticky>
+      <div class="uk-container">
+        <nav class="uk-navbar" uk-navbar>
+          <!-- Branding -->
+          <div class="uk-navbar-left">
+            <a href="./index.html"
+              ><img
+                id="logoMark"
+                src="./assets/images/DTransparent.png"
+                alt="Logo"
+            /></a>
+
+            <div id="logoType">Daniel Duran</div>
+          </div>
+          <!-- Nav -->
+          <div id="navLinks" class="uk-navbar-right">
+            <ul id="navLinksUl" class="uk-navbar-nav">
+              <li><a href="#about" uk-scroll>About</a></li>
+              <li><a href="#portfolio" uk-scroll>Portfolio</a></li>
+              <li><a href="#contact" uk-scroll>Contact</a></li>
+            </ul>
+            <div class="navMenuSmall">
+              <span id="navMenuIcon" uk-icon="icon: menu"></span>
+            </div>
+          </div>
+        </nav>
+        <div id="navToggle">
+          <ul class="uk-navbar-nav uk-flex uk-flex-right">
+            <li><a class="navSmallLink" href="#about" uk-scroll>About</a></li>
+            <li>
+              <a class="navSmallLink" href="#portfolio" uk-scroll>Portfolio</a>
+            </li>
+            <li>
+              <a class="navSmallLink" href="#contact" uk-scroll>Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <!-- Home -->
+    <section id="intro">
+      <div class="uk-container uk-flex uk-flex-column uk-flex-middle">
+        <div class="greeting">
+          <!-- Hello! I'm <span>Daniel</span>. -->
+        </div>
+        <p class="subHeading">
+          Front-End Web Developer
+        </p>
+        <img
+          class="myImg uk-border-circle"
+          data-src="./assets/images/danielHeadshot.jpg"
+          width=""
+          height=""
+          alt="Me"
+          uk-img
+        />
+      </div>
+    </section>
+
+    <!-- About Me section -->
+    <section id="about">
+      <div class="uk-container uk-flex uk-flex-column uk-flex-middle">
+        <h2 class="uk-text-center">About Me</h2>
+        <p class="uk-text-center">
+          Currently pursuing a Full Stack Development certificate, as i
+          continure to navigate my way into CyberLaw. Skills in HTML, CSS,
+          JavaScript, Mongodb, Express, React, and Node.js. Strengths in
+          balancing design and functionality, collaboration. During my time in
+          the coding bootcamp, my collaboration skills have grew tremendously as
+          we completed projects, such as a Full Stack app that allows aspiring
+          individuals, hoping to get into certain fields, find resources to help
+          them get started. Prarticularlly during this project I saw my UI/UX
+          skills greatly improve. Enrolling in the bootcamp made me realize that
+          I enjoy problem solving and through coding I would like to reslove
+          real world problems. I look forward to utilizing the skills I’ve
+          learned to provide the best solutions.
+        </p>
+      </div>
+    </section>
+
+    
+  </body>
+</html>
